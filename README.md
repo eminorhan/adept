@@ -1,6 +1,6 @@
 ## ADEPT data & evaluation tools 
 
-The [videos](https://github.com/eminorhan/adept/tree/master/videos) directory contains the ADEPT training and test data in video format (`.mp4`). You can use the [measure_accuracy.py]() to calculate the absolute and relative accuracies of a model. Example usage:
+The [videos](https://github.com/eminorhan/adept/tree/master/videos) directory contains the ADEPT training and test data in video format (`.mp4`). You can use the [measure_accuracy.py](https://github.com/eminorhan/adept/blob/master/measure_accuracy.py) file to calculate the absolute and relative accuracies of a model. Example usage:
 ```python
 python -u measure_accuracy.py \
 	--summary_file 'demo_scores.json' \
