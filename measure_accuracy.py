@@ -55,7 +55,7 @@ _human_pairs = read_serialized(os.path.join(CONTENT_FOLDER, "dataset", "human", 
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--summary_file", type=str, default="demo_scores.json")
+    parser.add_argument("--summary_file", type=str, default="adept_demo.json")
     parser.add_argument("--use_surprise_metric", type=int, default=True)
     parser.add_argument("--output_folder", type=str, default="/scratch/eo41/adept")
     return parser.parse_args()
